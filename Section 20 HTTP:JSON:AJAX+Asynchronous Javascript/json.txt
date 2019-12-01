@@ -1,0 +1,22 @@
+JSON: JavaScript Object Notation
+JSON is a syntax for storing and exchanging data
+JSON is text, written with JavaScript object notation
+
+Both XML and JSON can be used to retrieve data from a webserver
+
+JSON is more of a standard these days, format looks more like js.
+XML is not as efficient.
+
+JSON:
+	-Can be read by any language
+	-Everything has to be a string wrapped in double quotes
+	-You can send JSON through HTTP
+		-Google server reads in its own language (JSON parse)
+		-Google understands it now, executes what it needs..
+		-Modify to JSON, send over wire
+		-Web browser changes from JSON to JS
+			-JS comes with its own JSON functions
+				-JSON.parse()
+					var obj = JSON.parse('{"name":"John", "age":30');
+				-JSON.stringify()
+					var myJSON = JSON.stringify(obj);

@@ -1,0 +1,16 @@
+Problem.. you have to reload webpage every time we make then receive request from a server.
+
+What if I told you...
+	There was a way to only request certain pieces of the webpage.
+
+AJAX
+-Allows you to read from a webserver after the page has loaded
+-Update a webpage without reloading
+-Send data in the background while the user is intereacting with the website
+
+The New Way: Fetch (still AJAX!)
+fetch('/my/url').then(response => {
+	console.log(response);
+});
+
+-Sites feel more responsive
